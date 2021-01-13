@@ -5,7 +5,7 @@ class Paper{
 			isStatic:false,
 			restitution:0.3,
 			friction:0.5,
-            density:4.5		
+            density:1.2		
 			}
 		this.x=x;
 		this.y=y;
@@ -23,6 +23,7 @@ class Paper{
 			translate(paperpos.x, paperpos.y);
 			rectMode(CENTER)
 			fill("lightgreen")
+                        elipseMode(CENTER)
 			ellipse(0,0,this.r, this.r);
 			pop()
 			
