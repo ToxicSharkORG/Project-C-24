@@ -23,7 +23,7 @@ class Paper{
 			translate(paperpos.x, paperpos.y);
 			rectMode(CENTER)
 			fill("lightgreen")
-                        elipseMode(CENTER)
+                        ellipseMode(CENTER)
 			ellipse(0,0,this.r, this.r);
 			pop()
 			
